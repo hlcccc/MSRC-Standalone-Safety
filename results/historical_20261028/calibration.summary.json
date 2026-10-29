@@ -1,0 +1,20 @@
+{
+  "threshold": 0.519962791813474,
+  "objective": "maximum_calibration_request_label_accuracy",
+  "comparison": "strict_greater_than",
+  "tie_break": "lowest_nonnegative_threshold",
+  "calibration": {
+    "n": 672,
+    "TP": 501,
+    "TN": 13,
+    "FP": 155,
+    "FN": 3,
+    "accuracy": 0.7648809523809523,
+    "recall": 0.9940476190476191,
+    "benign_false_positive_rate": 0.9226190476190477,
+    "precision": 0.7637195121951219,
+    "balanced_accuracy": 0.5357142857142857
+  },
+  "candidates": 673,
+  "test_used": false
+}

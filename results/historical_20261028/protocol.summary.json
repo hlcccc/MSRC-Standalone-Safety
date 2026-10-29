@@ -1,0 +1,48 @@
+{
+  "arms": {
+    "without_plugguard_inherited": 6.606602553614496,
+    "without_plugguard_recalibrated": 0.519962791813474
+  },
+  "mode": "temporal_hold",
+  "hold_threshold": 0.7411624123677705,
+  "buffers": [
+    16,
+    64
+  ],
+  "max_tokens": 128,
+  "partition": {
+    "split_version": "original-and-exact-request-v2",
+    "original_groups": 3360,
+    "connected_groups": 3354,
+    "merged_components": 6,
+    "duplicate_request_groups": 6,
+    "original_group_overlap": 0,
+    "exact_request_overlap": 0,
+    "role_component_overlap": 0,
+    "exact_request_role_overlap": 0
+  },
+  "roles": {
+    "fit": 2688,
+    "calibration": 672,
+    "test": 3360
+  },
+  "plugguard_head_loaded": false,
+  "plugguard_scores_used": false,
+  "plugguard_gate_used": false,
+  "entropy_gate_used": false,
+  "fit_labels": "response_prefix_judge",
+  "recalibration_labels": "request_risk",
+  "recalibration_rule": "max_calibration_accuracy_strict_gt_lowest_tie",
+  "test_used_for_fitting_or_selection": false,
+  "previously_observed_test": true,
+  "no_new_blind_test_claim": true,
+  "original_work_read_only": true,
+  "methodology_fixed_before_new_test": true,
+  "code": {
+    "run_standalone.py": "471f971189736adceed7912567e3a450034e64356b125100c6feda8011a9b7e5",
+    "standalone_policy.py": "88945e1f5c5f57b6deab34514ba22408e0fa9be6f164bfa7b189052782b58adc",
+    "test_standalone.py": "e4a6f09af314301de5e6433a788202606ce61146921d7f5baae4c33d1952915b"
+  },
+  "input_hash": "429db61f7e2f3fae14b27117bc2a2e701c777d2b5777045839e50107e1f9107d",
+  "historical_frozen_sha256": "5cd62df6bc975dd9dd01e4928af3bfd63853c0c8112cf21654bd2f14ccef450c"
+}

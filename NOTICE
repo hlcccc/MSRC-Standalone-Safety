@@ -1,0 +1,37 @@
+MSRC Standalone Safety
+Copyright (c) 2026 HLC
+
+This repository retains the Apache License, Version 2.0, used by the MSRC source
+project. See LICENSE. It does not relicense external model weights or datasets.
+
+Reused project code
+-------------------
+msrc_safety/policy.py is copied byte-for-byte from the project's independent
+standalone_policy.py experiment, without a PlugGuard gate.
+msrc_safety/signals.py is copied byte-for-byte from the project's
+safety_lab/multilayer_signals.py. It contains the project's fit-only projections,
+not copied PlugGuard/Kelp model code. The model capture/decoding adapter was
+repackaged from the project's completed experiment. Source hashes and the
+existing MSRC source revision are recorded under results/historical_20261028.
+
+No PlugGuard/Kelp source or detector checkpoint is vendored in this repository.
+References to that project describe provenance and historical comparisons.
+
+Dependencies installed separately
+--------------------------------
+NumPy, PyTorch, Transformers, Accelerate, and Pillow retain their own licenses.
+Their source and model weights are not included here. The historical Linux
+runtime lock is an environment inventory, not a redistribution of its packages.
+
+Models and datasets
+-------------------
+Qwen2.5-VL-7B-Instruct was the generator. Qwen3Guard-Gen-8B was the offline
+response-prefix label teacher. Neither model's weights are distributed here.
+MM-SafetyBench and the project's benign images/requests are not distributed.
+Users must obtain required rights and comply with each artifact's terms.
+
+AI-assisted work
+----------------
+This packaging and the preceding experiments were developed with AI assistance.
+This notice makes no claim that standard linear probing, temporal accumulation,
+or buffering ideas are exclusively owned or were invented by this project.

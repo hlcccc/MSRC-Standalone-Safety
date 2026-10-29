@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msrc-standalone-safety"
+version = "0.1.0"
+description = "Experimental causal multilayer risk signals and buffered generation gating, without online PlugGuard."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+gpu = ["torch==2.7.1", "transformers==5.13.0", "accelerate==1.14.0", "pillow==12.3.0"]
+
+[project.scripts]
+msrc-safety = "msrc_safety.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["msrc_safety*"]

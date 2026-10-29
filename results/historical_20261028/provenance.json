@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "source_kind": "completed_historical_experiment_not_a_new_portable_gpu_run",
+  "historical_experiment_date": "2026-10-28",
+  "original_source_sha256": {
+    "run_standalone.py": "471f971189736adceed7912567e3a450034e64356b125100c6feda8011a9b7e5",
+    "standalone_policy.py": "88945e1f5c5f57b6deab34514ba22408e0fa9be6f164bfa7b189052782b58adc",
+    "test_standalone.py": "e4a6f09af314301de5e6433a788202606ce61146921d7f5baae4c33d1952915b"
+  },
+  "projection_source_sha256": "dc6fe8fda8473fbc29f338a7295f6cf66b1802cd3ee1c9254a821d73685c36a5",
+  "original_artifact_sha256": {
+    "calibration.json": "69a7d2a2b1cd264253ec7b58e4b70af12f552bc371c0d2266e12ae2cb43f0bbf",
+    "directions.json": "5dbeafc4e2ee0c3a771680ee32b19ad72372aadebe5a498956e859be9ae270b5",
+    "protocol.json": "c2c3028687ea980ce5afba50553600314953b858ad47b9cc0ffe2d7529a053ad",
+    "run_standalone.py": "471f971189736adceed7912567e3a450034e64356b125100c6feda8011a9b7e5",
+    "standalone_policy.py": "88945e1f5c5f57b6deab34514ba22408e0fa9be6f164bfa7b189052782b58adc",
+    "test_standalone.py": "e4a6f09af314301de5e6433a788202606ce61146921d7f5baae4c33d1952915b"
+  },
+  "calibration_feature_count": 672,
+  "historical_dataset_input_sha256": "429db61f7e2f3fae14b27117bc2a2e701c777d2b5777045839e50107e1f9107d",
+  "historical_source_run_manifest_sha256": "5cd62df6bc975dd9dd01e4928af3bfd63853c0c8112cf21654bd2f14ccef450c",
+  "upstream_project": {
+    "url": "https://github.com/hlcccc/MSRC",
+    "revision": "9be6b95808a2a10c81b88d9f7e43a29fca303d60",
+    "license": "Apache-2.0"
+  },
+  "offline_label_teacher": {
+    "repo": "Qwen/Qwen3Guard-Gen-8B",
+    "revision": "4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb"
+  },
+  "online_external_guard_loaded": false,
+  "raw_requests_distributed": false,
+  "trained_directions_distributed": false,
+  "weights_distributed": false,
+  "portable_gpu_rerun_performed_for_this_release": false
+}

@@ -1,0 +1,26 @@
+{
+  "calibration_only": true,
+  "no_plugguard_model": true,
+  "checks": [
+    {
+      "suite": "SD",
+      "exact_greedy_match": true,
+      "tokens": 32
+    },
+    {
+      "suite": "SD_TYPO",
+      "exact_greedy_match": true,
+      "tokens": 32
+    },
+    {
+      "suite": "TYPO",
+      "exact_greedy_match": true,
+      "tokens": 32
+    },
+    {
+      "suite": "benign",
+      "exact_greedy_match": true,
+      "tokens": 32
+    }
+  ]
+}
